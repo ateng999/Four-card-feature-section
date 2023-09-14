@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	background-color: hsl(0, 0%, 98%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrap {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 88px 0 64px;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 36.5px;
+    text-align: center;
+	margin-bottom: 25px;
+	color: hsl(234, 12%, 34%);
+}
+
+.ttlBold {
+	font-weight: 600;
+	display: block;
+	margin-top: 14px;
+}
+
+.ttlTxt {
+	text-align: center;
+	line-height: 1.6;
+	letter-spacing: 0.1px;
+	color: hsl(229, 6%, 66%);
+}
+
+.txtBlock {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1109px;
+	margin: 0 auto;
+}
+
+.txtBlock .txtBox{
+	width: calc((100% - 60px) / 3);
+}
+
+.txtBlock .sBox{
+	box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+	-moz-box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+border-radius: 5px;
+padding: 32px 31px 32px 32px;
+}
+
+.txtBlock .sBox h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+	margin-bottom: 15px;
+}
+
+.txtBlock .sBox p{
+	font-size: 13.3px;
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+	line-height: 1.62;
+}
+
+.txtBlock .sBox .icn {
+	display: flex;
+	justify-content: right;
+	margin-top: 40px;
+}
+
+.supervisor {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team {
+	margin-bottom: 30px;
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+	padding-top: 64px;
+	font-size: 11px;
+	text-align: center;
+}
+
+	.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 767px) {
+
+	.pc_only {
+		display: none;
+	}
+
+	.wrap {
+		padding: 0 32px;
+	}
+
+	header {
+		padding: 90px 0 76px;
+	}
+
+	h1 {
+		font-size: 24px;
+		letter-spacing: 0.1px;
+		margin-bottom: 20px;
+	}
+
+	.ttlTxt {
+		line-height: 1.64;
+	}
+
+	.txtBlock .txtBox{
+		width: 100%;
+	}
+
+	.txtBlock .sBox{
+	    box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+    -moz-box-shadow: 11px 17px 54px -21px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    padding: 28px 28px 30px;
+	}
+		
+	.txtBlock .sBox h2{
+		margin-bottom: 9px;
+	}
+	
+	.txtBlock .sBox .icn {
+		margin-top: 33.5px;
+	}
+		
+	.txtBlock .sBox .icn img {
+		width: 22.2%;
+	}
+	
+.supervisor {
+	margin-bottom: 22px;
+}
+
+.team {
+	margin-bottom: 22px;
+}
+
+.karma {
+	margin-bottom: 21px;
+}
+
+.calculator {
+	margin-bottom: 22px;
+}
+}
